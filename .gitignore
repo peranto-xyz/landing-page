@@ -1,0 +1,16 @@
+upstream/commits/*
+node_modules
+.vercel
+.next
+node_modules
+yarn-error.log
+tsconfig.tsbuildinfo
+**/public/precache.*.js
+**/public/sw.js
+**/public/sw.js.map
+**/public/workbox-*
+.swc
+**/public/worker-development.js
+.env.local
+.env*.local
+.DS_Store

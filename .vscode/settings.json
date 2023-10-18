@@ -17,7 +17,11 @@
   "editor.formatOnSave": true,
   "eslint.onIgnoredFiles": "warn",
   "eslint.options": {
-    "extensions": [".js", ".ts", ".tsx"]
+    "extensions": [
+      ".js",
+      ".ts",
+      ".tsx"
+    ]
   },
   "eslint.validate": [
     "javascript",
@@ -26,5 +30,7 @@
   ],
   "githubPullRequests.ignoredPullRequestBranches": [
     "main"
-  ]
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
 }

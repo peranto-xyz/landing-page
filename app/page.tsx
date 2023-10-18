@@ -79,7 +79,12 @@ export default function Home() {
               </Button>
             </Flex>
             <Flex flex="1">
-              <Image rounded="md" src="/mockup.png" alt="Peranto Mockup" />
+              <Image
+                rounded="md"
+                src="/mockup.png"
+                alt="Peranto Mockup"
+                shadow="dark-lg"
+              />
             </Flex>
           </Flex>
 
@@ -147,6 +152,7 @@ export default function Home() {
             bgColor="white"
             padding="4"
             gap={4}
+            border="1px solid black"
           >
             <Text fontWeight="bold" fontSize="4xl" lineHeight="10">
               What is peranto Ci.Go <br /> (Citizenship and Government)?
@@ -576,6 +582,32 @@ export default function Home() {
                   </UnorderedList>
                 </Flex>
               </Flex>
+            </Flex>
+          </Flex>
+
+          <Flex
+            direction="column"
+            gap={12}
+            alignItems="center"
+            color="white"
+            mb="40"
+          >
+            <Text fontSize="3xl" fontWeight="bold">
+              TEAM
+            </Text>
+
+            <Flex direction="column" gap={4} alignItems="center" lineHeight="3">
+              <Image src="/ceo.png" rounded="lg" w="300px" shadow="dark-lg" />
+              <Text fontWeight="bold" fontSize="lg" mt="4">
+                Edgar Salinas - Founder & CEO
+              </Text>
+              <Text fontSize="sm">
+                https://www.linkedin.com/in/edgardanielsalinasledesma/
+              </Text>
+              <Text fontSize="sm">X: gentle_humano</Text>
+              <Text>
+                Determined to change how digital and analog identities operate.
+              </Text>
             </Flex>
           </Flex>
 

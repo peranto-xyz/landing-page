@@ -5,6 +5,7 @@ import {
   Button,
   Flex,
   Image,
+  Link,
   List,
   ListItem,
   OrderedList,
@@ -602,7 +603,12 @@ export default function Home() {
                 Edgar Salinas - Founder & CEO
               </Text>
               <Text fontSize="sm">
-                https://www.linkedin.com/in/edgardanielsalinasledesma/
+                <Link
+                  color="white"
+                  href="https://www.linkedin.com/in/edgardanielsalinasledesma/"
+                >
+                  https://www.linkedin.com/in/edgardanielsalinasledesma/
+                </Link>
               </Text>
               <Text fontSize="sm">X: gentle_humano</Text>
               <Text>

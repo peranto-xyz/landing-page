@@ -577,9 +577,10 @@ export default function Home() {
                   </Text>
 
                   <UnorderedList fontSize="sm">
-                    <ListItem>Signing contracts with multi-signature</ListItem>
-                    <ListItem>Document signature verification</ListItem>
-                    <ListItem>Cross-identity chat</ListItem>
+                    <ListItem>Linking identities to EVM accounts</ListItem>
+                    <ListItem>
+                      Invitation to beta testers from all areas
+                    </ListItem>
                   </UnorderedList>
                 </Flex>
               </Flex>

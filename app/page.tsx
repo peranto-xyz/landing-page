@@ -570,7 +570,7 @@ export default function Home() {
                   gap={2}
                   borderBottom="2px dashed #ccc"
                   pb="14"
-                  transform="translateY(-264px)"
+                  transform="translateY(-243px)"
                 >
                   <Text fontWeight="bold" fontSize="lg">
                     December 2023 <br /> Digital HUB

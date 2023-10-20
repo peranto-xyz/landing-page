@@ -531,10 +531,11 @@ export default function Home() {
 
                   <UnorderedList fontSize="sm">
                     <ListItem>
-                      Linking identities to <br /> EVM accounts
+                      Credential templates for <br /> trades, academia and{" "}
+                      <br /> professionals
                     </ListItem>
                     <ListItem>
-                      Invitation to beta <br /> testers from all areas
+                      Citizen dashboard, <br /> verifiers and attesters.
                     </ListItem>
                   </UnorderedList>
                 </Flex>

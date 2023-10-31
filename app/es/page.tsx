@@ -35,13 +35,21 @@ export default function Home() {
           <Flex
             w="full"
             justifyContent="space-between"
+            alignItems="center"
             bgColor="white"
             py={6}
             px={8}
             roundedBottom="md"
             shadow="md"
           >
-            <PerantoLogo /> <KiltLogo />
+            <PerantoLogo />{" "}
+            <Flex gap={8}>
+              <Flex fontSize="xs" color="blue.600" gap={1}>
+                {" "}
+                <Link href="/en">EN</Link>|<Link href="/es">ES</Link>{" "}
+              </Flex>{" "}
+              <KiltLogo />
+            </Flex>
           </Flex>
 
           <Flex
@@ -55,13 +63,14 @@ export default function Home() {
           >
             <Flex flex="1" direction="column" gap={6} lineHeight="normal">
               <Text color="white" fontWeight="bolder" fontSize="4xl">
-                A dApp to control your entire digital <br /> identity <br />{" "}
-                self-sovereign.
+                Una dApp para controlar toda tu <br /> identidad digital <br />{" "}
+                auto-soberana.
               </Text>
               <Text color="white">
-                Click the button to start, or scroll down to learn more about
+                Haz click en el botón para comenzar, o scrollea hacía abajo para
+                saber más
                 <Text fontWeight="bold" as="span" ml="2">
-                  peranto Ci.Go (Citizenship and Government)
+                  sobre peranto Ci.Go (Ciudadanía y Gobierno)
                 </Text>
               </Text>
               <Button
@@ -76,7 +85,7 @@ export default function Home() {
                 href="https://app.peranto.xyz"
                 target="_blank"
               >
-                BEGIN
+                Comenzar
               </Button>
             </Flex>
             <Flex flex="1">

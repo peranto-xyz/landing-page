@@ -35,13 +35,21 @@ export default function Home() {
           <Flex
             w="full"
             justifyContent="space-between"
+            alignItems="center"
             bgColor="white"
             py={6}
             px={8}
             roundedBottom="md"
             shadow="md"
           >
-            <PerantoLogo /> <KiltLogo />
+            <PerantoLogo />{" "}
+            <Flex gap={8}>
+              <Flex fontSize="xs" color="blue.600" gap={1}>
+                {" "}
+                <Link href="/en">EN</Link>|<Link href="/es">ES</Link>{" "}
+              </Flex>{" "}
+              <KiltLogo />
+            </Flex>
           </Flex>
 
           <Flex
@@ -76,7 +84,7 @@ export default function Home() {
                 href="https://app.peranto.xyz"
                 target="_blank"
               >
-                BEGIN
+                Begin
               </Button>
             </Flex>
             <Flex flex="1">

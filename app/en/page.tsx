@@ -647,10 +647,10 @@ export default function Home() {
               <Text>X: peranto_mex </Text>
               <Text>email: services@peranto.xyz</Text>
             </Flex>
-            <Flex>
+            <Flex direction="column">
               <PerantoLogoShort />
 
-              <Link href="/aviso-de-privacidad">Aviso de Privacidad</Link>
+              <Link href="/en/aviso-de-privacidad">Aviso de Privacidad</Link>
             </Flex>
             <Flex direction="column">
               <Flex alignItems="center">

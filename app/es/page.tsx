@@ -650,6 +650,8 @@ export default function Home() {
             </Flex>
             <Flex>
               <PerantoLogoShort />
+
+              <Link href="/aviso-de-privacidad">Aviso de Privacidad</Link>
             </Flex>
             <Flex direction="column">
               <Flex alignItems="center">
